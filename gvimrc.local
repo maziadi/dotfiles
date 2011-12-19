@@ -1,5 +1,3 @@
 set background=light
 color solarized
-set guifont=Monaco:h12
-
-map <Leader>c <plug>NERDCommenterToggle<CR>
+set guifont=Monaco:h11
