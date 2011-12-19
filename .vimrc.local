@@ -1,0 +1,2 @@
+map <Leader>c <plug>NERDCommenterToggle<CR>
+:set mouse=a
