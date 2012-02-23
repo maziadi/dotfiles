@@ -1,3 +1,4 @@
 set background=light
-color solarized
+color railscasts
 set guifont=Monaco:h11
+set guioptions-=T
