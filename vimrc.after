@@ -1,6 +1,13 @@
 map <Leader>c <plug>NERDCommenterToggle<CR>
 map <Leader>r <plug>NERDTreeFind<CR>
-:set mouse=a
+
+set mouse=a
+set noswapfile
+
+map <C-j> gt
+map <C-k> gT
+
+let g:ackprg = 'ag --nogroup --nocolor --column'
 
 let g:ctrlp_clear_cache_on_exit = 0
 let g:ctrlp_dotfiles = 0
